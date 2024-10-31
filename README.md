@@ -8,15 +8,65 @@ NIM : 312410501
 
 Mata Kuliah : Bahasa Pemograman
 
-### flowchart
+## membuat program dan flowchart tiket bioskop menggunakan if else dan operator ternary
+
+1.
+![gambar](fw2.png)
+
+Titik awal dari flowchart menggunakan simbol oval.
+
+2.
+![gambar](fw3.png)
+
+Pengguna diminta untuk menginputkan tipe_tiket (Reguler/VIP).
+
+3.
+![gambar](fw4.png)
+
+Pengguna diminta untuk memasukan status_member (Ya/Tidak).
+
+4.
+![gambar](fw5.png)
+
+Apakah tipe_tiket tersebut Reguler?
+
+-Jika Ya, maka Harga = 50000.
+
+-Jika tidak, maka Harga = 100000.
+
+5.
+![gambar](fw6.png)
+
+Apakah status_member ya?
+
+-Jika Ya, maka Diskon = 0.2.
+
+-Jika Tidak, maka Diskon = 0.
+
+6.
+![gambar](fw7.png)
+
+Lalu kita mencari Total_harga dengan mengkali Harga dengan (1 - Diskon) dan hasilnya = Total_harga
+
+7.
+![gambar](fw8.png)
+
+Output atau tampilkan Total_harga tersebut.
+
+8.
+![gambar](fw9.png)
+
+Dan selesai diakhiri dengan simbol oval.
+
+### Ini adalah flowchartnya:
 
 ![gambar](fw1.png)
 
-### Program dalam bentuk python:
+### Ini adalah Programnya dalam bentuk python:
 
 ![gambar](hasil1.png)
 
-### program yang telah diinputkan:
+### Ini adalah hasil dari program yang telah diinputkan:
 
 ![gambar](hasil2.png)
 
@@ -108,10 +158,3 @@ Dan selesai diakhiri menggunakan simbol oval.
 ### Ini adalah hasil dari program yang telah diinputkan:
 
 ![gambar](hasil3.png)
-
-
-
-
-
-
-
