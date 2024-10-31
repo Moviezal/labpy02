@@ -8,75 +8,106 @@ NIM : 312410501
 
 Mata Kuliah : Bahasa Pemograman
 
-# Program pemesanan tiket bioskop
+### flowchart
 
-# Flowchart
+![gambar](fw1.png)
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/flowchart.jpg)
+### Program dalam bentuk python:
 
-# Berikut penjelasan Flowchart diatas
+![gambar](hasil1.png)
 
-**Mulai:** proses dimulai dengan langkah ini,ditandai dengan symbol oval
+### program yang telah diinputkan:
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/mulai.jpg)
+![gambar](hasil2.png)
 
-**Inisialisasi Harga Tiket:**
+## Membuat program dan flowchart kalkulator sederhana menggunakan if elif else untuk menentukan operasi aritmatika
 
-Tiket Reguler: Rp50.000
+1.
+![gambar](fc2.png)
 
-Tiket VIP: Rp100.000
+Titik awal dari flowchart menggunakan simbol oval.
 
-Diskon Member: 20%
+2.
+![gambar](fc3.png)
 
-Tentukan harga untuk tiket reguler dan tiket VIP, serta diskon yang diberikan untuk member
+Pengguna diminta menginputkan angka pertama.
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/instalasi%20harga.jpg)
+3.
+![gambar](fc4.png)
 
-**Input Tipe Tiket:** Pengguna diminta untuk memasukkan tipe tiket yang ingin dibeli, apakah "reguler" atau "VIP".
+Pengguna diminta untuk menginputkan angka kedua.
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/input%20tipe%20tiket.jpg)
+4.
+![gambar](fc5.png)
 
-**Input Status Member:** Pengguna diminta untuk memasukkan status keanggotaan mereka, apakah memiliki kartu member ("ya") atau tidak ("tidak").
+Pengguna diminta untuk menginputkan operator (+, -, *, /).
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/input%20status%20tiket%20member.jpg)
+5.
+![gambar](fc6.png)
 
-**Validasi Tipe Tiket:** Program memeriksa apakah tipe tiket yang diinput adalah "reguler" atau "VIP":
+Apakah operator = +?
 
-Jika tipe tiket adalah "reguler", lanjutkan ke langkah berikutnya dengan harga tiket diatur ke Rp50.000.
+-Jika Ya, maka Hasil = angka pertama + angka kedua. Dan lanjut ke no10.
 
-Jika tipe tiket adalah "VIP", lanjutkan ke langkah berikutnya dengan harga tiket diatur ke Rp100.000.
+-Jika Tidak, maka lanjut ke no6.
 
-Jika tipe tiket bukan "reguler" atau "VIP", anggap sebagai input yang tidak valid dan minta pengguna untuk memasukkan tipe tiket yang benar.
+6.
+![gambar](fc7.png)
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/tipe%20tiket.jpg)
+Apakah operator = -?
 
-**Periksa Apakah Harga Tidak Nol:**
+-Jika Ya, maka Hasil = angka pertama - angka kedua. Dan lanjut ke no10.
 
-Program memeriksa apakah harga tiket sudah diatur (tidak nol):
+-Jika Tidak, maka lanjut ke no7.
 
-Jika harga sudah diatur, lanjutkan ke langkah berikutnya.
+7.
+![gambar](fc8.png)
 
-Jika harga belum diatur (nol), kembali ke input tipe tiket.
+Apakah operator = *?
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/apakah%20harga%20%3D0.jpg)
+-Jika Ya, maka Hasil = angka pertama * angka kedua. Dan lanjut ke no10.
 
-**Cek Status Member dan Hitung Diskon:**
+-Jika Tidak, maka lanjut ke no8.
 
-Program memeriksa apakah pengguna memiliki kartu member:
+8.
+![gambar](fc9.png)
 
-Jika pengguna memiliki kartu member ("ya"), harga akhir dihitung dengan memberikan diskon 20%.
+Apakah operator = /?
 
-Jika pengguna tidak memiliki kartu member ("tidak"), harga akhir tetap sama dengan harga tiket tanpa diskon.
+-Jika Ya, maka lanjut ke no9.
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/status%20member.jpg)
+-Jika Tidak, maka Hasil = "Error: operator tidak valid!". Dan lanjut ke no10.
 
-**Tampilkan Harga Akhir:** Program menampilkan total harga tiket yang harus dibayar oleh pengguna.
+9.
+![gambar](fc10.png)
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/tampilkan%20harga%20akhir.jpg)
+Apakah angka kedua ≠ 0?
 
-**Selesai:** Proses selesai, ditandai oleh simbol oval.
+-Jika Ya, maka Hasil = angka pertama / angka kedua. Dan lanjut ke no10.
 
-![foto](https://github.com/Moviezal/Praktikum3/blob/3105062ecdd95dd95d7429570e786a5eb5b94ee3/selesai.jpg)
+-Jika Tidak, maka Hasil = "Error: pembagian dengan nol tidak diperbolehkan". Dan lanjut ke no10
+
+10.
+![gambar](fc11.png)
+
+Lalu output atau tampilkan Hasil.
+
+11.
+![gambar](fc12.png)
+
+Dan selesai diakhiri menggunakan simbol oval.
+
+### Ini adalah flowchartnya:
+
+![gambar](fc1.png)
+
+### Ini adalah programnya dalam bentuk python:
+
+![gambar](hasil4.png)
+
+### Ini adalah hasil dari program yang telah diinputkan:
+
+![gambar](hasil3.png)
 
 
 
