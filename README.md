@@ -58,15 +58,15 @@ Output atau tampilkan Total_harga tersebut.
 
 Dan selesai diakhiri dengan simbol oval.
 
-### Ini adalah flowchartnya:
+### flowchart:
 
 ![gambar](fw1.png)
 
-### Ini adalah Programnya dalam bentuk python:
+### Program dalam bentuk python:
 
 ![gambar](hasil1.png)
 
-### Ini adalah hasil dari program yang telah diinputkan:
+### Hasil dari program yang telah diinputkan:
 
 ![gambar](hasil2.png)
 
