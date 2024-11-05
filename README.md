@@ -8,7 +8,7 @@ NIM : 312410501
 
 Mata Kuliah : Bahasa Pemograman
 
-## membuat program dan flowchart tiket bioskop menggunakan if else dan operator ternary
+## Membuat Program dan Flowchart tiket bioskop menggunakan if else dan operator ternary
 
 1.
 ![gambar](fw2.png)
